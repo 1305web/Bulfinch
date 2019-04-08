@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../jquery.js"></script>
+    <title>canvas和file 和promise</title>
+    <!-- <style>
+        #text{
+            width:200px;
+            height:300px;
+            overflow:auto;
+        }
+        
+    </style> -->
+</head>
+<body>
+    <!-- <input type="file" name="file" id="file">
+    <div id="text"></div>
+    <img src="" id="img" alt="">
+    <button id="click">点击</button> -->
+    <!-- <input type="text" list="myList">
+    <datalist id="myList"> 
+        <option value="包字">宽带缴费</option>
+        <option value="包过">宽带缴费</option>
+        <option value="包朱">宽带缴费</option>
+        <option value="朱包值">宽带缴费</option>
+        <option value="朱包吃">宽带缴费</option>
+    </datalist> -->
+    <!-- <input type="file" id="file"/>
+    <label for="file">上传文件夹</label>
+    <br> -->
+
+    <!-- <canvas width=500 height=500 style="background:#fee;"></canvas> -->
+</body>
+    <script>
+        // var file = document.querySelector('#file');
+        // var btn = document.querySelector('#click');
+        // var oDiv = document.querySelector('#text');
+        // var oImg = document.querySelector('#img');
+        // btn.onclick=function(){
+        //     let name = file.files[0];
+        //     var reader = new FileReader();
+        //     reader.readAsDataURL(name);
+        //     reader.onload=()=>{
+        //         oImg.src = reader.result;
+        //     }
+            
+        // }
+        // var canvas=document.querySelector('canvas');
+        // var ctx = canvas.getContext('2d');
+        // ctx.fillStyle='red'
+        // ctx.fillRect(0,0,102,302);
+        // ctx.strokeStyle='blue';
+        // ctx.lineWidth=23;
+        // ctx.strokeRect(12,2,33,333);
+        // ctx.clearRect(0,0,23,333);   
+        // ctx.beginPath();
+        // ctx.moveTo(2,2);
+        // ctx.lineTo(44,44);
+        // ctx.lineTo(55,525);
+        // ctx.closePath();
+        // ctx.fill();
+        // var grd = ctx.createLinearGradient(0,0,222,323);
+        // grd.addColorStop(0,'red');
+        // grd.addColorStop(1,'green');
+        // ctx.fillStyle=grd;
+        // ctx.fillRect(0,0,333,222)
+        // ctx.font='90px Arial';
+        // ctx.fillText('外地方',232,332)
+        // var img = document.createElement('img');
+        // img.src='../../图片/timg (2).jpeg';
+        // img.width='200'
+        // console.log(img);
+        // window.onload=()=>{//注意一个图片的加载时间长
+        //     ctx.drawImage(img,12,12,300,233)
+        // }
+        // ctx.beginPath();
+        // ctx.arc(44,44,22,0,Math.PI);
+        // ctx.lineWidth='24';
+        // ctx.stroke();
+        // ctx.fillRect(0,0,222,333)
+        // var promise = new Promise(function(resolve,reject){
+            
+        //     resolve('我是resolve');
+        // })
+        // promise.then((res)=>{
+        //     console.log(res);
+        //     return'dkfjdj'
+        // },(rej)=>{
+        //     console.log(rej)
+        // }).then((res)=>{
+        //     console.log(res)
+        // },(res)=>{
+        //     console.log('aaaaa')
+        //     console.log(res);
+        // })
+        // var promise = new Promise(function(resolve,reject){
+        //     let xhr = new XMLHttpRequest();
+        //     xhr.onreadystatechange=function(){
+        //         if(xhr.readyState==4&&xhr.status==200){
+        //             resolve(JSON.parse(xhr.responseText));
+        //         }
+        //     }
+        //     xhr.open('POST','http://192.168.7.221:3000/songs',true);
+        //     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        //     xhr.send('verify=1')
+        // })
+        // promise.then((res)=>{
+        //     console.log(res)
+        // })
+        // var promise = new Promise(function(resolve,reject){
+        //     $.ajax({
+        //         url:'http://192.168.7.221:3000/songs',
+        //         type:'post',
+        //         data:'verify=1',
+        //         dataType:'json',
+        //         success:(res)=>{
+        //             resolve(res);
+        //         }
+        //     })
+        // })
+        // promise.then((res)=>{
+        //     console.log(res)
+        // })
+
+
+
+        
+    </script>
+</html>
